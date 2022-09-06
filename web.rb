@@ -15,5 +15,8 @@ post '/' do
   puts JSON.parse(request.body.read)
 
   moves = ['F', 'T', 'L', 'R']
+  
+	# TODO add your implementation here to replace the random response
+  
   moves.sample
 end
